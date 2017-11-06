@@ -9,24 +9,29 @@ html {
 }
 
 body {
+  position: relative;
   height: 100%;
   width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .main-header ul {
-  width: 32%;
+  width: 35%;
+  float: right;
   position: absolute;
   list-style: none;
-  bottom: 0;
-  right: 0;
+  bottom: 2%;
+  right: -4%;
   font-size: 1.3rem;
   color: #009588;
+  text-align: right;
 }
 
 .main-header li {
   float: left;
   padding-left: 8%;
+  letter-spacing: 0.05rem;
 }
 
 .main-header li a {
@@ -39,8 +44,8 @@ body {
   z-index: -1;
   float: left;
   width: 100%;
-  height: 100%;
-  top: 5%;
+  height: 98.35%;
+  top: 4%;
   background-color: #253138;
   border-top: 1px solid #babfc0;
   border-right: 2px solid #babfc0;
@@ -54,7 +59,7 @@ body {
   color: #ebeef1;
   text-align: center;
   font-size: 1.2rem;
-  top: 1%;
+  top: 0.5%;
   transform: translateX(-50%);
 }
 
@@ -62,7 +67,7 @@ body {
   position: relative;
   float: left;
   width: 100%;
-  height: 9.8%;
+  height: 6%;
   top: 3%;
   background-color: #253138;
 }
@@ -89,7 +94,7 @@ body {
   right: 2%;
   font-size: 1.5rem;
   padding: 0;
-  margin-top: 1px;
+  margin-top: 0;
   margin-bottom: 0;
   text-align: center;
   color: #282626;
@@ -122,6 +127,7 @@ body {
 }
 
 .side-box {
+  position: relative;
   float: left;
   width: calc(100% / 4 - 1px);
   height: 100%;
@@ -129,12 +135,12 @@ body {
 
 .main-header {
   position: relative;
-  height: 10%;
+  height: 8%;
   background-color: #f9faf9;
 }
 
 .side-header {
-  height: 10%;
+  height: 8%;
   background-color: #f9faf9;
 }
 
@@ -158,13 +164,13 @@ body {
 }
 
 .col-3 img {
+  position: relative;
   width: 100%;
   height: 100%;
 }
 
 .col {
   position: relative;
-  float: left;
   width: 90%;
   height: 44%;
   left: 50%;
@@ -173,6 +179,7 @@ body {
 }
 
 .col img {
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -181,7 +188,7 @@ body {
   position: relative;
   width: 20%;
   float: right;
-  top: -3.5%;
+  top: -2%;
   right: 2%;
   text-align: right;
 }
@@ -224,15 +231,15 @@ body {
   top: 1%;
   color: #009588;
   font-size: 1.6rem;
+  letter-spacing: 0.05rem;
   text-decoration: underline;
 }
 
 #sideclose {
   position: absolute;
-  z-index: 1;
-  top: 3.3%;
-  right: 1.5%;
-  font-size: 2.5rem;
+  top: 3%;
+  right: 1.2%;
+  font-size: 3rem;
   color: #469789;
 }
 
@@ -245,7 +252,6 @@ body {
 #sidelogo {
   position: relative;
   height: 100%;
-  width: 70%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
