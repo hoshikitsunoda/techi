@@ -5,39 +5,6 @@ body {
   margin: 0;
 }
 
-.parent {
-  position: relative;
-  width: 80%;
-  height: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.main-box {
-  float: left;
-  width: calc(100% / 4 * 3 - 2px);
-  height: 100%;
-  border: 1px solid #d7d8d7;
-}
-
-.side-box {
-  float: left;
-  width: calc(100% / 4 - 2px);
-  height: 100%;
-  border: 1px solid #d7d8d7;
-}
-
-.main-header {
-  position: relative;
-  height: 13%;
-  border: 1px solid #d7d8d7;
-}
-
-.side-header {
-  height: 13%;
-  border: 1px solid #d7d8d7;
-}
-
 ul {
   width: 28%;
   position: absolute;
@@ -54,4 +21,46 @@ li {
 li a {
   display: block;
   text-align: center;
+}
+
+.parent {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-box {
+  float: left;
+  width: calc(100% / 4 * 3 - 2px);
+  height: 100%;
+  border-right: 1px solid #d7d8d7;
+}
+
+.side-box {
+  float: left;
+  width: calc(100% / 4 - 2px);
+  height: 100%;
+  border-left: 1px solid #d7d8d7;
+}
+
+.main-header {
+  position: relative;
+  height: 13%;
+  background-color: #f9faf9;
+  border-right: 1px solid #d7d8d7;
+}
+
+.side-header {
+  height: 13%;
+  background-color: #f9faf9;
+  border-left: 1px solid #d7d8d7;
+}
+
+#sidelogo {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
