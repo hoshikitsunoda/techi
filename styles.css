@@ -30,11 +30,26 @@ body {
 
 .main-footer {
   position: relative;
+  z-index: -1;
   float: left;
   width: 100%;
   height: 100%;
   top: 5%;
   background-color: #253138;
+  border-top: 1px solid #babfc0;
+  border-right: 2px solid #babfc0;
+}
+
+.main-footer p {
+  left: 50%;
+  width: 50%;
+  position: relative;
+  margin-right: 0;
+  color: #ebeef1;
+  text-align: center;
+  font-size: 1.2rem;
+  top: 1%;
+  transform: translateX(-50%);
 }
 
 .side-box ul {
@@ -81,7 +96,6 @@ body {
   float: left;
   width: calc(100% / 4 - 1px);
   height: 100%;
-  border-left: 1px solid #808180;
 }
 
 .main-header {
@@ -132,6 +146,21 @@ body {
 .col img {
   width: 100%;
   height: 100%;
+}
+
+.icons {
+  position: relative;
+  width: 20%;
+  float: right;
+  top: -3.5%;
+  right: 2%;
+  text-align: right;
+}
+
+.icons i {
+  font-size: 2.5rem;
+  color: #009588;
+  margin-left: 2%;
 }
 
 #main-learn-more {
