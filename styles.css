@@ -89,14 +89,12 @@ body {
 .main-column {
   position: relative;
   width: 100%;
-  height: 100%;
   margin-top: 1.5%;
 }
 
 .side-column {
   position: relative;
   width: 100%;
-  height: 100%;
 }
 
 .col-3 {
@@ -116,7 +114,7 @@ body {
   position: relative;
   float: left;
   width: 88%;
-  height: 40%;
+  height: 44%;
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 6%;
@@ -125,6 +123,27 @@ body {
 .col img {
   width: 100%;
   height: 100%;
+}
+
+#main-learn-more {
+  position: relative;
+  float: left;
+  top: 2%;
+  left: 1%;
+  font-size: 1.6rem;
+  color: #009588;
+  text-decoration: underline;
+}
+
+#side-learn-more {
+  position: relative;
+  width: 55%;
+  float: left;
+  left: 6%;
+  top: 2%;
+  color: #009588;
+  font-size: 1.6rem;
+  text-decoration: underline;
 }
 
 #sideclose {
@@ -159,4 +178,8 @@ body {
 #coloredList {
   background-color: #282626;
   color: #009588;
+}
+
+#bottom-img {
+  margin: 0;
 }
