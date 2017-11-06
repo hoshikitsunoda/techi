@@ -28,11 +28,30 @@ body {
 }
 
 .main-header {
-  height: 10%;
+  position: relative;
+  height: 13%;
   border: 1px solid #d7d8d7;
 }
 
 .side-header {
-  height: 10%;
+  height: 13%;
   border: 1px solid #d7d8d7;
+}
+
+ul {
+  width: 28%;
+  position: absolute;
+  list-style: none;
+  bottom: 0;
+  right: 2%;
+}
+
+li {
+  float: left;
+  padding-left: 5%;
+}
+
+li a {
+  display: block;
+  text-align: center;
 }
