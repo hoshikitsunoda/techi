@@ -4,22 +4,49 @@ body {
   width: 100vw;
   margin: 0;
   font-size: 10px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
-ul {
-  width: 28%;
+.main-header ul {
+  width: 35%;
   position: absolute;
   list-style: none;
   bottom: 0;
   right: 2%;
+  font-size: 1.5rem;
+  color: #009588;
 }
 
-li {
+.main-header li {
   float: left;
-  padding-left: 5%;
+  padding-left: 8%;
 }
 
-li a {
+.main-header li a {
+  display: block;
+  text-align: center;
+}
+
+.side-box ul {
+  width: 100%;
+  float: left;
+  display: block;
+  list-style: none;
+  bottom: 0;
+  right: 2%;
+  font-size: 1.5rem;
+  padding: 0;
+  margin-top: 1px;
+  text-align: center;
+  color: #282626;
+}
+
+.side-box li {
+  padding: 4% 0;
+  border-bottom: 1px solid #282626;
+}
+
+.side-box li a {
   display: block;
   text-align: center;
 }
@@ -36,14 +63,14 @@ li a {
   float: left;
   width: calc(100% / 4 * 3 - 1px);
   height: 100%;
-  border-right: 1px solid #d7d8d7;
+  border-right: 1px solid #808180;
 }
 
 .side-box {
   float: left;
   width: calc(100% / 4 - 1px);
   height: 100%;
-  border-left: 1px solid #d7d8d7;
+  border-left: 1px solid #808180;
 }
 
 .main-header {
@@ -84,4 +111,9 @@ li a {
 #headerimg {
   position: relative;
   width: 100%;
+}
+
+#coloredList {
+  background-color: #282626;
+  color: #009588;
 }
