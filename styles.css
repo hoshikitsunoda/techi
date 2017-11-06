@@ -26,3 +26,13 @@ body {
   height: 100%;
   border: 1px solid #d7d8d7;
 }
+
+.main-header {
+  height: 10%;
+  border: 1px solid #d7d8d7;
+}
+
+.side-header {
+  height: 10%;
+  border: 1px solid #d7d8d7;
+}
