@@ -17,13 +17,13 @@ body {
 }
 
 .main-header ul {
-  width: 35%;
+  width: 31%;
   float: right;
   position: absolute;
   list-style: none;
-  bottom: 2%;
-  right: -4%;
-  font-size: 1.3rem;
+  bottom: -7%;
+  right: 1%;
+  font-size: 1.6rem;
   color: #009588;
   text-align: right;
 }
@@ -41,11 +41,10 @@ body {
 
 .main-footer {
   position: relative;
-  z-index: -1;
   float: left;
   width: 100%;
-  height: 98.35%;
-  top: 4%;
+  height: 111.5%;
+  top: 6%;
   background-color: #253138;
   border-top: 1px solid #babfc0;
   border-right: 2px solid #babfc0;
@@ -67,7 +66,7 @@ body {
   position: relative;
   float: left;
   width: 100%;
-  height: 6%;
+  height: 8.5%;
   top: 3%;
   background-color: #253138;
 }
@@ -110,9 +109,14 @@ body {
   text-align: center;
 }
 
+#coloredList {
+  background-color: #282626;
+  color: #009588;
+}
+
 .parent {
   position: relative;
-  width: 80%;
+  width: 100%;
   height: 100%;
   left: 50%;
   transform: translateX(-50%);
@@ -122,7 +126,7 @@ body {
   position: relative;
   float: left;
   width: calc(100% / 4 * 3 - 1px);
-  height: 100%;
+  height: 110%;
   border-right: 1px solid #808180;
 }
 
@@ -135,18 +139,19 @@ body {
 
 .main-header {
   position: relative;
-  height: 8%;
+  height: 10%;
   background-color: #f9faf9;
 }
 
 .side-header {
-  height: 8%;
+  height: 11%;
   background-color: #f9faf9;
 }
 
 .main-column {
   position: relative;
   width: 100%;
+  height: 55%;
   margin-top: 1.5%;
 }
 
@@ -159,7 +164,7 @@ body {
   position: relative;
   float: left;
   width: calc(100% / 3 - 2.2%);
-  height: 45%;
+  height: 100%;
   margin: 0 1%;
 }
 
@@ -188,7 +193,7 @@ body {
   position: relative;
   width: 20%;
   float: right;
-  top: -2%;
+  top: -3%;
   right: 2%;
   text-align: right;
 }
@@ -213,10 +218,19 @@ body {
   margin-left: 1%;
 }
 
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 84%;
+  bottom: 84.5%;
+  opacity: 0.7;
+  background-color: black;
+}
+
 #main-learn-more {
   position: relative;
   float: left;
-  top: 2%;
+  top: 3%;
   left: 1%;
   font-size: 1.6rem;
   color: #009588;
@@ -237,9 +251,9 @@ body {
 
 #sideclose {
   position: absolute;
-  top: 3%;
-  right: 1.2%;
-  font-size: 3rem;
+  top: 3.5%;
+  right: 4%;
+  font-size: 2.5rem;
   color: #469789;
 }
 
@@ -251,20 +265,26 @@ body {
 
 #sidelogo {
   position: relative;
-  height: 100%;
+  height: 98%;
+  width: 60%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-#headerimg {
+#header-img {
   position: relative;
   width: 100%;
+  height: auto;
 }
 
-#coloredList {
-  background-color: #282626;
-  color: #009588;
+#header-text {
+  position: absolute;
+  font-size: 5.5rem;
+  z-index: 1;
+  top: 12%;
+  left: 1%;
+  color: #fefffe;
 }
 
 #bottom-img {
@@ -273,4 +293,73 @@ body {
 
 .fa {
   position: relative;
+}
+
+#brook {
+  position: absolute;
+  font-size: 3.8rem;
+  letter-spacing: 0.2rem;
+  left: 6.6%;
+  top: 60.5%;
+  font-weight: bolder;
+  color: #fefffe;
+}
+
+#brook-title {
+  position: absolute;
+  font-size: 1.81rem;
+  font-weight: lighter;
+  left: 25.2%;
+  top: 73%;
+  color: #fefffe;
+}
+
+#jake {
+  position: absolute;
+  font-size: 3.8rem;
+  letter-spacing: 0.2rem;
+  left: 42.9%;
+  top: 60.5%;
+  font-weight: bolder;
+  color: #fefffe;
+}
+
+#jake-title {
+  position: absolute;
+  font-size: 1.81rem;
+  font-weight: lighter;
+  left: 53.5%;
+  top: 73%;
+  color: #fefffe;
+}
+
+#allef {
+  position: absolute;
+  font-size: 3.8rem;
+  letter-spacing: 0.3rem;
+  left: 69%;
+  top: 8.5%;
+  font-weight: bolder;
+  color: #fefffe;
+}
+
+#allef-title {
+  position: absolute;
+  font-size: 1.81rem;
+  font-weight: lighter;
+  left: 85.1%;
+  top: 20.3%;
+  color: #fefffe;
+}
+
+#allef-text {
+  width: 28%;
+  position: absolute;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  letter-spacing: 0.05rem;
+  left: 69%;
+  top: 35%;
+  color: #fefffe;
+  line-height: 2rem;
 }

@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/hoshikitsunoda/techi/issues"
   },
-  "homepage": "https://github.com/hoshikitsunoda/techi#readme"
+  "homepage": "https://github.com/hoshikitsunoda/techi#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
 }
