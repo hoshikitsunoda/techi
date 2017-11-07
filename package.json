@@ -1,0 +1,20 @@
+{
+  "name": "techi",
+  "version": "1.0.0",
+  "description": "A project to recreate a Techi website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoshikitsunoda/techi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoshikitsunoda/techi/issues"
+  },
+  "homepage": "https://github.com/hoshikitsunoda/techi#readme"
+}
