@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon index.js",
-    "seed": "node seed.js"
+    "seed": "node seed.js",
+    "build": "run-s build:*",
+    "build:css": "concat -o public/styles.css public/css/*.css public/css/**/*.css",
+    "watch:css": "onchange 'public/css/*.css' 'public/css/**/*.css' -- npm run build:css"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,9 @@
     "mongodb": "^2.2.33"
   },
   "devDependencies": {
-    "nodemon": "^1.12.1"
+    "concat": "^1.0.3",
+    "concat-glob-cli": "^0.1.0",
+    "nodemon": "^1.12.1",
+    "onchange": "^3.2.1"
   }
 }
