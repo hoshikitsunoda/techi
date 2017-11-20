@@ -1,0 +1,15 @@
+#mainlogo {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+
+#sidelogo {
+  position: relative;
+  height: 98%;
+  width: 65%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

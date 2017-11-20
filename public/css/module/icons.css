@@ -1,0 +1,40 @@
+.fa {
+  position: relative;
+}
+
+.icons {
+  position: relative;
+  width: 20%;
+  float: right;
+  top: -2.5%;
+  right: 1.5%;
+  text-align: right;
+}
+
+.icons i {
+  font-size: 2.5rem;
+  color: #009588;
+  margin-left: 2%;
+}
+
+.icons-side {
+  position: relative;
+  height: 30%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.icons-side i {
+  font-size: 1.7rem;
+  color: #009588;
+  margin-left: 1%;
+}
+
+#sideclose {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  font-size: 3rem;
+  color: #469789;
+}
